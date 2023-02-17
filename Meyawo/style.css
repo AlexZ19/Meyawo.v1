@@ -1,0 +1,329 @@
+.header {  
+    background-image: url(asset/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+       }
+    li {
+        /* display: flex;
+        flex-direction: row; */
+        
+        display: inline-block;
+        padding: 20px; 
+        }
+   
+    .empty {
+        width: 800px;
+
+    }
+    .police {
+        font-family: 'Fredoka One', cursive;
+        color: rgb(81, 9, 86);
+    }
+    .meyawo {
+        margin-bottom: 20px;
+    }
+    .btn {
+        width: 150px;
+        border-radius: 30px;
+        border-color: blue;
+    }
+        
+   
+
+    .tatoue {
+        display: flex;
+        flex-direction: row;
+        margin-left: 150px;
+    }
+    .texte {
+        color: rgb(86, 22, 142);
+        font-family: 'Varela Round', sans-serif;
+    }
+    .btndl {
+        border-radius: 30px;
+        width: 150px;
+       
+    }
+    .tatouer {
+        height: 400px;
+    }
+    .textetatouer {
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+}
+.ido {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: px;
+    /* height: 700px;
+    width: 500; */
+    
+}
+.cards1 {
+
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+    color: transparent;
+}
+
+
+.cards1:hover {
+    transform: translateY(-20px);
+    color: black;
+    
+}
+.antiprice {
+    color: black;
+}
+.img1r {
+    height: 50px;
+    
+    
+     }
+.cards2 {
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+    color: transparent;
+}
+.cards2:hover {
+    transform: translateY(-20px);
+    color: black;
+}
+.responsive {
+    color: black;
+}
+.img2r {
+    height: 50px;
+}
+.cards3 {
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+    color: transparent;
+    
+}
+.cards3:hover {
+    transform: translateY(-20px);
+    color: black;
+}
+.toolbox {
+    color: black;
+}
+.img3 {
+    height: 50px;
+}
+.cards4{border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+    color: transparent;
+    
+
+}
+.cards4:hover {
+    transform: translateY(-20px);
+    color: black;
+}
+.icone {
+    color: black;
+}
+.img4 {
+    height: 50px;
+
+}
+.idid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .folio {
+        display: flex;
+        flex-direction: row;
+        margin-left: 150px;
+         }
+ .folio:hover{
+    transform: rotateX('90')
+ }
+ .folioone {
+    height: 400px;
+    width: 400px;
+ }
+ .foliotwo {
+    height: 400px;
+    width: 400px;
+ }
+ .foliothree {
+    height: 400px;
+    width: 400px;
+ }
+ .icharge {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ .pricing {
+    display: flex;
+    flex-direction: row;
+    
+    /* border: 1px solid black; */
+    
+    
+    height: 300px;
+    width: 500px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+    }
+    .prix {
+        font-family: 'Oswald', sans-serif;
+        color: black;
+    }
+    .pricingdiv1 {
+        border: 1px solid black;
+    }
+    .princingdiv2 {
+        border: 1px solid black;
+    }
+    .pricing3 {
+        border: 1px solid black;
+    }
+   
+ .imgprice {
+    height: 50px;
+    width: 50px;
+ }
+ .hireme {
+    height: 150px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+    
+ }
+ .hiremebtn {
+    margin-left: 1000px;
+    margin-bottom: 100px;
+ }
+ .h2p {
+    /* margin-left: 300px; */
+    display: flex;
+     }
+    
+    
+ /* }
+ .h2p1 {
+    margin-left: 300px;
+    margin-bottom: 100px;
+ } */
+
+ .aboutme {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    }
+.avatarcards {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 900px;
+    align-items: center;
+    margin-left: 300px;
+    
+}
+.avatar1 {
+    border: 1px solid black;
+    margin: 50px;
+
+
+}
+.avatar2 {
+    border: 1px solid black;
+
+}
+.garcon {
+    height: 100px;
+    /* position: absolute; */
+    /* margin-top: 175px;
+    margin-right: 100px; */
+    border-radius: 50px;
+    
+    
+}
+.fille {
+    height: 100px;
+    border-radius: 50px;
+}
+.blogpost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardimg1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.img1 {
+    height: 350px;
+    width: 350px;
+
+}
+.img2 {
+    height: 350px;
+    width: 350px;
+}
+.test {
+    display: flex;
+    flex-direction: row;
+}
+.cardimg2 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+.communicate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 75px;
+}
+.frontend {
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+}
+.visits {
+    background: rgb(151, 55, 183);
+    color: white;
+    border-radius: 30px;
+}
+.forms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+]
